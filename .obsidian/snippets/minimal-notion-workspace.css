@@ -387,3 +387,16 @@ body.hider-tabs {
   background: var(--background-primary);
   overflow: hidden;
 }
+
+/* Keep the Notion-like emoji/icon as the single folder signal; hide native folder glyphs. */
+.nav-folder-title .nav-folder-title-content > svg,
+.nav-folder-title .nav-folder-title-content > .svg-icon,
+.nav-folder-title .nav-folder-title-content > .tree-item-icon,
+.nav-folder-title .nav-folder-title-content > .nav-folder-icon,
+.nav-folder-title .nav-folder-title-content > .iconize-icon,
+.nav-folder-title .nav-folder-title-content > .iconic-default-icon,
+.nav-folder-title svg.svg-icon.lucide-folder-closed,
+.nav-folder-title svg.svg-icon.lucide-folder-open,
+.nav-folder-title svg.svg-icon.lucide-folder {
+  display: none !important;
+}
