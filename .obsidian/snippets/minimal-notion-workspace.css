@@ -400,3 +400,29 @@ body.hider-tabs {
 .nav-folder-title svg.svg-icon.lucide-folder {
   display: none !important;
 }
+
+/* Element Call focus mode: browser first, sidebars out of the way. */
+body:has(.workspace-leaf.mod-active .custom-frames-element-call) .workspace-split.mod-left-split,
+body:has(.workspace-leaf.mod-active .custom-frames-element-call) .workspace-split.mod-right-split,
+body:has(.mod-active .custom-frames-element-call) .workspace-split.mod-left-split,
+body:has(.mod-active .custom-frames-element-call) .workspace-split.mod-right-split {
+  display: none !important;
+}
+
+body:has(.workspace-leaf.mod-active .custom-frames-element-call) .workspace-ribbon.mod-left,
+body:has(.mod-active .custom-frames-element-call) .workspace-ribbon.mod-left {
+  width: 34px;
+  opacity: 0.5;
+}
+
+.workspace-leaf-content[data-type="custom-frames-element-call"] .view-content,
+.workspace-leaf-content[data-type="custom-frames-element-call"] .custom-frames-view {
+  padding: 0 !important;
+}
+
+.workspace-leaf-content[data-type="custom-frames-element-call"] .custom-frames-frame,
+.workspace-leaf-content[data-type="custom-frames-element-call"] webview.custom-frames-element-call,
+.workspace-leaf-content[data-type="custom-frames-element-call"] iframe.custom-frames-element-call {
+  width: 100% !important;
+  height: 100% !important;
+}
