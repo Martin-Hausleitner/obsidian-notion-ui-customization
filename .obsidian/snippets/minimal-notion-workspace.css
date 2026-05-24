@@ -166,6 +166,13 @@ body.hider-tabs {
   margin-inline: auto;
 }
 
+.markdown-rendered.table-centered table,
+.markdown-preview-view.table-centered table,
+.markdown-source-view.table-centered .cm-table-widget table {
+  max-width: min(100%, 760px);
+  margin-inline: auto;
+}
+
 .markdown-rendered th {
   font-weight: 650;
   background: var(--background-secondary);
@@ -393,8 +400,6 @@ body.hider-tabs {
 .nav-folder-title .nav-folder-title-content > .svg-icon,
 .nav-folder-title .nav-folder-title-content > .tree-item-icon,
 .nav-folder-title .nav-folder-title-content > .nav-folder-icon,
-.nav-folder-title .nav-folder-title-content > .iconize-icon,
-.nav-folder-title .nav-folder-title-content > .iconic-default-icon,
 .nav-folder-title svg.svg-icon.lucide-folder-closed,
 .nav-folder-title svg.svg-icon.lucide-folder-open,
 .nav-folder-title svg.svg-icon.lucide-folder {

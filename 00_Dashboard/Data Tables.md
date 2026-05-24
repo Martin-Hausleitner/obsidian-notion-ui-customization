@@ -2,6 +2,8 @@
 type: "dashboard"
 status: "active"
 emoji: "📊"
+cssclasses:
+  - table-centered
 banner: "![[99_Assets/notion-dashboard-banner.png]]"
 banner_y: 0.42
 banner_icon: "📊"
