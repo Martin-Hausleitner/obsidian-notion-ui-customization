@@ -1,0 +1,15 @@
+{
+  "leftSidebarWidth": 252,
+  "rightSidebarWidth": 252,
+  "leftSideEnabled": true,
+  "rightSideEnabled": true,
+  "leftTriggerWidth": 50,
+  "rightTriggerWidth": 50,
+  "leftTriggerPadding": 100,
+  "rightTriggerPadding": 100,
+  "overlayMode": true,
+  "delay": 50,
+  "showNotifications": false,
+  "leftPluginActive": true,
+  "rightPluginActive": true
+}

@@ -8,6 +8,7 @@ Clean Notion-style Obsidian workspace setup using real community plugins and loc
 - Emoji-first navigation via sanitized Emoji Title and Iconic configuration
 - Slash Commander configuration with 53 icon commands, including Custom Frames, Surfing, Copilot, Notion Sync, SQLSeal, Bases, Banners, Iconic, and Git commands
 - Custom Frames demo configuration for E-Mail, Cloud Files, Chat, and Element Call
+- Hide Sidebars configuration for clean overlay/auto-hide sidebars during browser and data-table work
 - Bases, DB Folder, SQLSeal, and Dataview demo pages
 - Company demo Home screen with collapsed details
 - Small demo dataset for SQLSeal CSV queries
@@ -29,7 +30,7 @@ Install the community plugins listed in `.obsidian/community-plugins.json`, then
 1. Open Obsidian settings.
 2. Go to Appearance, then CSS snippets.
 3. Enable `minimal-notion-workspace`.
-4. Restart Obsidian once after enabling SQLSeal, Slash Commander, Iconic, Emoji Title, Dataview, DB Folder, Copilot, Surfing, Notebook Navigator, Custom Frames, and Banners.
+4. Restart Obsidian once after enabling SQLSeal, Slash Commander, Iconic, Emoji Title, Dataview, DB Folder, Copilot, Surfing, Notebook Navigator, Custom Frames, Hide Sidebars, and Banners.
 
 ## Demo Pages
 
@@ -43,4 +44,4 @@ Install the community plugins listed in `.obsidian/community-plugins.json`, then
 
 ## Safety
 
-Do not add personal vault content, screenshots, workspace state, Notion sync state, Local REST API data, Copilot provider data, or plugin folders that contain tokens.
+Do not add personal vault content, screenshots, workspace state, Notion sync state, Local REST API data, Copilot provider data, or plugin folders that contain tokens. This bundle includes only safe plugin configuration and the public Hide Sidebars manifest/config, not private account data.
