@@ -1,0 +1,437 @@
+{
+  "version": 2,
+  "confirmDeletion": true,
+  "showDescriptions": true,
+  "showSourcesForDuplicates": false,
+  "debug": false,
+  "mainTrigger": "/",
+  "extraTriggers": [],
+  "useExtraTriggers": false,
+  "triggerOnlyOnNewLine": false,
+  "bindings": [
+    {
+      "name": "New page",
+      "id": "file-explorer:new-file",
+      "action": "file-explorer:new-file",
+      "icon": "file-plus",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "New folder",
+      "id": "file-explorer:new-folder",
+      "action": "file-explorer:new-folder",
+      "icon": "folder-plus",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Table",
+      "id": "editor:insert-table",
+      "action": "editor:insert-table",
+      "icon": "table-2",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Callout",
+      "id": "editor:insert-callout",
+      "action": "editor:insert-callout",
+      "icon": "message-square-quote",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Code block",
+      "id": "editor:insert-codeblock",
+      "action": "editor:insert-codeblock",
+      "icon": "terminal",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Math block",
+      "id": "editor:insert-mathblock",
+      "action": "editor:insert-mathblock",
+      "icon": "square-function",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Embed",
+      "id": "editor:insert-embed",
+      "action": "editor:insert-embed",
+      "icon": "panel-top",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Attachment",
+      "id": "editor:attach-file",
+      "action": "editor:attach-file",
+      "icon": "paperclip",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Property",
+      "id": "markdown:add-metadata-property",
+      "action": "markdown:add-metadata-property",
+      "icon": "list-plus",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Task",
+      "id": "obsidian-tasks-plugin:edit-task",
+      "action": "obsidian-tasks-plugin:edit-task",
+      "icon": "check-circle",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Template",
+      "id": "templater-obsidian:insert-templater",
+      "action": "templater-obsidian:insert-templater",
+      "icon": "book-copy",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "QuickAdd",
+      "id": "quickadd:runQuickAdd",
+      "action": "quickadd:runQuickAdd",
+      "icon": "zap",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Excalidraw",
+      "id": "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed-new-tab",
+      "action": "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed-new-tab",
+      "icon": "pen-tool",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Canvas",
+      "id": "canvas:new-file",
+      "action": "canvas:new-file",
+      "icon": "layout-dashboard",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Open E-Mail",
+      "id": "obsidian-custom-frames:open-custom-frames-e-mail",
+      "action": "obsidian-custom-frames:open-custom-frames-e-mail",
+      "icon": "mail",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Open Cloud Files",
+      "id": "obsidian-custom-frames:open-custom-frames-cloud-files",
+      "action": "obsidian-custom-frames:open-custom-frames-cloud-files",
+      "icon": "cloud",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Open Chat",
+      "id": "obsidian-custom-frames:open-custom-frames-chat",
+      "action": "obsidian-custom-frames:open-custom-frames-chat",
+      "icon": "message-circle",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Copilot Chat",
+      "id": "copilot:chat-open-window",
+      "action": "copilot:chat-open-window",
+      "icon": "bot",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Copilot Quick Ask",
+      "id": "copilot:trigger-quick-ask",
+      "action": "copilot:trigger-quick-ask",
+      "icon": "sparkles",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Surfing Browser",
+      "id": "surfing:open-surfing-view-next",
+      "action": "surfing:open-surfing-view-next",
+      "icon": "globe",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Surfing DuckDuckGo",
+      "id": "surfing:usingDuckDuckGo-to-search",
+      "action": "surfing:usingDuckDuckGo-to-search",
+      "icon": "search",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Surfing GitHub Search",
+      "id": "surfing:usingGitHub-to-search",
+      "action": "surfing:usingGitHub-to-search",
+      "icon": "github",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Notebook Navigator",
+      "id": "notebook-navigator:open",
+      "action": "notebook-navigator:open",
+      "icon": "notebook-tabs",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Notebook Search",
+      "id": "notebook-navigator:search",
+      "action": "notebook-navigator:search",
+      "icon": "search-check",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "SQLSeal Explorer",
+      "id": "sqlseal:sqlseal-command-explorer",
+      "action": "sqlseal:sqlseal-command-explorer",
+      "icon": "database",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "SQLSeal Global Tables",
+      "id": "sqlseal:sqlseal-command-global-tables",
+      "action": "sqlseal:sqlseal-command-global-tables",
+      "icon": "table-properties",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "SQLSeal Reload DB",
+      "id": "sqlseal:reload-sqlseal",
+      "action": "sqlseal:reload-sqlseal",
+      "icon": "refresh-cw",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Search",
+      "id": "global-search:open",
+      "action": "global-search:open",
+      "icon": "search",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Quick switcher",
+      "id": "switcher:open",
+      "action": "switcher:open",
+      "icon": "corner-down-right",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Graph view",
+      "id": "graph:open",
+      "action": "graph:open",
+      "icon": "network",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Local graph",
+      "id": "graph:open-local",
+      "action": "graph:open-local",
+      "icon": "git-fork",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Backlinks",
+      "id": "backlink:open",
+      "action": "backlink:open",
+      "icon": "links",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Advanced Canvas Text",
+      "id": "advanced-canvas:create-text-node",
+      "action": "advanced-canvas:create-text-node",
+      "icon": "type",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Advanced Canvas Presentation",
+      "id": "advanced-canvas:start-presentation",
+      "action": "advanced-canvas:start-presentation",
+      "icon": "presentation",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Git commit and sync",
+      "id": "obsidian-git:push",
+      "action": "obsidian-git:push",
+      "icon": "cloud-upload",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Git commit all",
+      "id": "obsidian-git:commit",
+      "action": "obsidian-git:commit",
+      "icon": "git-commit",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Git source control",
+      "id": "obsidian-git:open-git-view",
+      "action": "obsidian-git:open-git-view",
+      "icon": "git-branch",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Element Call",
+      "id": "obsidian-custom-frames:open-custom-frames-element-call",
+      "action": "obsidian-custom-frames:open-custom-frames-element-call",
+      "icon": "video",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Notion Sync Panel",
+      "id": "notion-sync:open-sync-panel",
+      "action": "notion-sync:open-sync-panel",
+      "icon": "refresh-cw",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Notion Sync Current File",
+      "id": "notion-sync:sync-current-file",
+      "action": "notion-sync:sync-current-file",
+      "icon": "file-sync",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Notion Pull Current File",
+      "id": "notion-sync:pull-current-file",
+      "action": "notion-sync:pull-current-file",
+      "icon": "download-cloud",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Notion Pull New Pages",
+      "id": "notion-sync:pull-new-pages",
+      "action": "notion-sync:pull-new-pages",
+      "icon": "folder-down",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Banners Add Banner",
+      "id": "obsidian-banners:banners:addBanner",
+      "action": "obsidian-banners:banners:addBanner",
+      "icon": "image-plus",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Banners Paste Banner",
+      "id": "obsidian-banners:banners:pasteBanner",
+      "action": "obsidian-banners:banners:pasteBanner",
+      "icon": "clipboard-paste",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Banners Add Page Icon",
+      "id": "obsidian-banners:banners:addIcon",
+      "action": "obsidian-banners:banners:addIcon",
+      "icon": "badge-plus",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Banners Lock Banner",
+      "id": "obsidian-banners:banners:lockBanner",
+      "action": "obsidian-banners:banners:lockBanner",
+      "icon": "lock",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Banners Remove Banner",
+      "id": "obsidian-banners:banners:removeBanner",
+      "action": "obsidian-banners:banners:removeBanner",
+      "icon": "image-minus",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Iconic Change Icon",
+      "id": "iconic:change-icon-current-file",
+      "action": "iconic:change-icon-current-file",
+      "icon": "smile-plus",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Iconic Rulebook",
+      "id": "iconic:open-rulebook",
+      "action": "iconic:open-rulebook",
+      "icon": "book-open-check",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Iconic Toggle Title Icons",
+      "id": "iconic:toggle-title-icons",
+      "action": "iconic:toggle-title-icons",
+      "icon": "heading-1",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Iconic Toggle Tab Icons",
+      "id": "iconic:toggle-markdown-tab-icons",
+      "action": "iconic:toggle-markdown-tab-icons",
+      "icon": "panel-top",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Bases New Base",
+      "id": "bases:new-file",
+      "action": "bases:new-file",
+      "icon": "table-cells-split",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    },
+    {
+      "name": "Bases Insert Base",
+      "id": "bases:insert-base",
+      "action": "bases:insert-base",
+      "icon": "panel-bottom-open",
+      "mode": "any",
+      "triggerMode": "anywhere"
+    }
+  ]
+}

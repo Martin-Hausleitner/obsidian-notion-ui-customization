@@ -1,0 +1,27 @@
+filters:
+  and:
+    - 'type == "company-demo"'
+    - 'file.inFolder("05_Demo")'
+properties:
+  file.name:
+    displayName: Page
+  status:
+    displayName: Status
+  owner:
+    displayName: Owner
+  sync:
+    displayName: Sync
+  priority:
+    displayName: Priority
+views:
+  - type: table
+    name: Company Sync
+    order:
+      - file.name
+      - status
+      - owner
+      - sync
+      - priority
+    sort:
+      - property: priority
+        direction: DESC

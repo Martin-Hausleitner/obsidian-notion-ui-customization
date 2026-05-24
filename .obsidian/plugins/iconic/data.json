@@ -1,0 +1,191 @@
+{
+  "biggerIcons": "desktop",
+  "clickableIcons": "desktop",
+  "showAllFileIcons": false,
+  "showAllFolderIcons": false,
+  "minimalFolderIcons": true,
+  "showMarkdownTabIcons": true,
+  "showTitleIcons": true,
+  "showTagPillIcons": true,
+  "showMenuActions": true,
+  "showSuggestionIcons": true,
+  "showQuickSwitcherIcons": true,
+  "showMoveFileIcons": true,
+  "showItemName": "desktop",
+  "biggerSearchResults": "mobile",
+  "maxSearchResults": 50,
+  "colorPicker1": "list",
+  "colorPicker2": "rgb",
+  "uncolorHover": false,
+  "uncolorDrag": false,
+  "uncolorSelect": false,
+  "uncolorQuick": false,
+  "maxBackups": 2,
+  "dialogState": {
+    "iconMode": false,
+    "emojiMode": true,
+    "rulePage": "file"
+  },
+  "appIcons": {
+    "settings": {
+      "icon": "lucide-settings",
+      "color": "#7c8a96"
+    },
+    "sidebarLeft": {
+      "icon": "lucide-panel-left",
+      "color": "#7c8a96"
+    },
+    "sidebarRight": {
+      "icon": "lucide-panel-right",
+      "color": "#7c8a96"
+    }
+  },
+  "tabIcons": {},
+  "fileIcons": {
+    "00_Dashboard": {
+      "icon": "🏠"
+    },
+    "01_Architecture": {
+      "icon": "🏗️"
+    },
+    "02_Product": {
+      "icon": "🧭"
+    },
+    "03_Operations": {
+      "icon": "🛠️"
+    },
+    "04_Research": {
+      "icon": "🔎"
+    },
+    "05_Demo": {
+      "icon": "✨"
+    },
+    "90_Templates": {
+      "icon": "🧱"
+    },
+    "99_Assets": {
+      "icon": "🗂️"
+    }
+  },
+  "bookmarkIcons": {},
+  "tagIcons": {
+    "architecture": {
+      "icon": "lucide-network",
+      "color": "#6b8eaa"
+    },
+    "dashboard": {
+      "icon": "lucide-layout-dashboard",
+      "color": "#4f8f7b"
+    },
+    "embed": {
+      "icon": "lucide-panel-top-open",
+      "color": "#3b82a0"
+    },
+    "notion-style": {
+      "icon": "lucide-sparkles",
+      "color": "#8a7aa8"
+    },
+    "obsidian": {
+      "icon": "lucide-gem",
+      "color": "#7d78a8"
+    },
+    "web": {
+      "icon": "lucide-globe-2",
+      "color": "#3b82a0"
+    }
+  },
+  "propertyIcons": {
+    "area": {
+      "icon": "lucide-map",
+      "color": "#6b8eaa"
+    },
+    "component": {
+      "icon": "lucide-blocks",
+      "color": "#7d78a8"
+    },
+    "created": {
+      "icon": "lucide-calendar-plus",
+      "color": "#7c8a96"
+    },
+    "mode": {
+      "icon": "lucide-toggle-right",
+      "color": "#7c8a96"
+    },
+    "owner": {
+      "icon": "lucide-user-round",
+      "color": "#8a7aa8"
+    },
+    "priority": {
+      "icon": "lucide-arrow-up-narrow-wide",
+      "color": "#b88746"
+    },
+    "review_date": {
+      "icon": "lucide-calendar-check",
+      "color": "#7f8f52"
+    },
+    "risk": {
+      "icon": "lucide-triangle-alert",
+      "color": "#b88746"
+    },
+    "score": {
+      "icon": "lucide-gauge",
+      "color": "#4f8f7b"
+    },
+    "source": {
+      "icon": "lucide-link",
+      "color": "#3b82a0"
+    },
+    "status": {
+      "icon": "lucide-circle-dot",
+      "color": "#4f8f7b"
+    },
+    "tags": {
+      "icon": "lucide-tags",
+      "color": "#8a7aa8"
+    },
+    "type": {
+      "icon": "lucide-shapes",
+      "color": "#7c8a96"
+    }
+  },
+  "ribbonIcons": {
+    "command-palette:Open command palette": {
+      "icon": "lucide-square-slash",
+      "color": "#7c8a96"
+    },
+    "copilot:open-copilot-chat": {
+      "icon": "lucide-bot",
+      "color": "#8a7aa8"
+    },
+    "notion-sync:Notion sync": {
+      "icon": "lucide-refresh-cw",
+      "color": "#4f8f7b"
+    },
+    "obsidian-custom-frames:open-custom-frames-chat": {
+      "icon": "lucide-message-circle",
+      "color": "#8a7aa8"
+    },
+    "obsidian-custom-frames:open-custom-frames-cloud-files": {
+      "icon": "lucide-cloud",
+      "color": "#3b82a0"
+    },
+    "obsidian-custom-frames:open-custom-frames-e-mail": {
+      "icon": "lucide-mail",
+      "color": "#b88746"
+    },
+    "obsidian-git:Open Git source control": {
+      "icon": "lucide-git-branch",
+      "color": "#7c8a96"
+    },
+    "surfing:surfing-bookmark-manager": {
+      "icon": "lucide-bookmark",
+      "color": "#3b82a0"
+    },
+    "switcher:Open quick switcher": {
+      "icon": "lucide-search",
+      "color": "#6b8eaa"
+    }
+  },
+  "fileRules": [],
+  "folderRules": []
+}
