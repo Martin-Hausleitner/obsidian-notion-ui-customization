@@ -14,42 +14,15 @@ tags:
 
 # 📊 Data Tables
 
-<div class="notion-company-kicker">Drei Varianten fuer professionelle Datenansichten: einfache Tabelle, Dataview und SQLSeal.</div>
+<div class="notion-company-kicker">Fuenf ruhige Varianten fuer professionelle Datenansichten: Markdown-Tabelle, Bases, DB Folder, Dataview und SQLSeal.</div>
 
 ## Kompakt
 
-<div class="notion-table-card">
-<table>
-  <thead>
-    <tr>
-      <th>Page</th>
-      <th>Status</th>
-      <th>Owner</th>
-      <th>Sync</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>🐙 GitHub Backup</td>
-      <td>automated</td>
-      <td>Operations</td>
-      <td>Obsidian Git</td>
-    </tr>
-    <tr>
-      <td>📚 Knowledge Base</td>
-      <td>live</td>
-      <td>Team</td>
-      <td>Markdown</td>
-    </tr>
-    <tr>
-      <td>🧭 Customer Portal</td>
-      <td>planned</td>
-      <td>Product</td>
-      <td>Notion-ready</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+| Page | Status | Owner | Sync |
+| --- | --- | --- | --- |
+| 🐙 GitHub Backup | automated | Operations | Obsidian Git |
+| 📚 Knowledge Base | live | Team | Markdown |
+| 🧭 Customer Portal | planned | Product | Notion-ready |
 
 <details class="notion-more">
 <summary>Mehr anzeigen</summary>

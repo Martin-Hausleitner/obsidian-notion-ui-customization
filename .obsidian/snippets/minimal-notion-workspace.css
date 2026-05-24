@@ -108,6 +108,22 @@ body.hider-tabs {
   display: none !important;
 }
 
+.nav-file-title.notion-sync-synced::after,
+.nav-file-title.notion-sync-modified::after {
+  content: none !important;
+  display: none !important;
+}
+
+.nav-files-container .nav-folder-title .nav-folder-title-content::before {
+  content: none !important;
+  display: none !important;
+}
+
+.nav-files-container .nav-folder-title > .nav-folder-collapse-indicator,
+.nav-files-container .nav-folder-title > .collapse-icon {
+  display: none !important;
+}
+
 .nav-files-container .nav-folder-title svg.svg-icon.lucide-folder,
 .nav-files-container .nav-folder-title svg.svg-icon.lucide-folder-open,
 .nav-files-container .nav-file-title svg.svg-icon.lucide-file,

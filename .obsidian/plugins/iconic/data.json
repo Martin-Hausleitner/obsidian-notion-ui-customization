@@ -65,6 +65,51 @@
     },
     "99_Assets": {
       "icon": "🗂️"
+    },
+    "01_Architecture/ADR": {
+      "icon": "🧾"
+    },
+    "01_Architecture/Components": {
+      "icon": "🧩"
+    },
+    "01_Architecture/Matrix": {
+      "icon": "📊"
+    },
+    "01_Architecture/Nextcloud": {
+      "icon": "☁️"
+    },
+    "01_Architecture/Providers": {
+      "icon": "🧬"
+    },
+    "01_Architecture/Security": {
+      "icon": "🔐"
+    },
+    "01_Architecture/Stack Decisions": {
+      "icon": "🧱"
+    },
+    "01_Architecture/Storage": {
+      "icon": "🗄️"
+    },
+    "02_Product/Beeper Backup": {
+      "icon": "💬"
+    },
+    "02_Product/Market": {
+      "icon": "📈"
+    },
+    "02_Product/PIPA": {
+      "icon": "🧪"
+    },
+    "02_Product/Positioning": {
+      "icon": "🎯"
+    },
+    "02_Product/Roadmap": {
+      "icon": "🗺️"
+    },
+    "02_Product/Tau": {
+      "icon": "τ"
+    },
+    "03_Operations/Backups": {
+      "icon": "💾"
     }
   },
   "bookmarkIcons": {},

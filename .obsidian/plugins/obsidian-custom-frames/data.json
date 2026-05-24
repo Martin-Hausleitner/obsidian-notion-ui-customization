@@ -1,0 +1,53 @@
+{
+  "frames": [
+    {
+      "url": "https://mail.google.com/mail/u/0/#inbox",
+      "displayName": "E-Mail",
+      "icon": "mail",
+      "hideOnMobile": true,
+      "addRibbonIcon": true,
+      "openInCenter": true,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    },
+    {
+      "url": "https://drive.google.com/drive/my-drive",
+      "displayName": "Cloud Files",
+      "icon": "cloud",
+      "hideOnMobile": true,
+      "addRibbonIcon": true,
+      "openInCenter": true,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    },
+    {
+      "url": "https://chatgpt.com",
+      "displayName": "Chat",
+      "icon": "message-circle",
+      "hideOnMobile": true,
+      "addRibbonIcon": true,
+      "openInCenter": true,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    },
+    {
+      "url": "https://call.element.io",
+      "displayName": "Element Call",
+      "icon": "video",
+      "hideOnMobile": true,
+      "addRibbonIcon": true,
+      "openInCenter": true,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    }
+  ],
+  "padding": 5
+}

@@ -5,8 +5,9 @@ Clean Notion-style Obsidian workspace setup using real community plugins and loc
 ## What Is Included
 
 - Minimal theme CSS polish in `.obsidian/snippets/minimal-notion-workspace.css`
-- Emoji-first navigation via Emoji Title and Iconic configuration
-- Slash Commander configuration with 53 icon commands
+- Emoji-first navigation via sanitized Emoji Title and Iconic configuration
+- Slash Commander configuration with 53 icon commands, including Custom Frames, Surfing, Copilot, Notion Sync, SQLSeal, Bases, Banners, Iconic, and Git commands
+- Custom Frames demo configuration for E-Mail, Cloud Files, Chat, and Element Call
 - Bases, DB Folder, SQLSeal, and Dataview demo pages
 - Company demo Home screen with collapsed details
 - Small demo dataset for SQLSeal CSV queries
@@ -19,6 +20,7 @@ Clean Notion-style Obsidian workspace setup using real community plugins and loc
 - Obsidian Local REST API keys
 - Plugin binaries or credentials
 - Private screenshots
+- Hermes private env/MCP wiring
 
 ## Core Plugins And Community Plugins
 
