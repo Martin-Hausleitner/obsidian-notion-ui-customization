@@ -1,6 +1,6 @@
 filters:
   and:
-    - 'type == "company-demo"'
+    - 'note.type == "company-demo"'
     - 'file.inFolder("05_Demo")'
 properties:
   file.name:
