@@ -110,6 +110,54 @@
     },
     "03_Operations/Backups": {
       "icon": "💾"
+    },
+    "03_Operations/Incidents": {
+      "icon": "🚨"
+    },
+    "03_Operations/Monitoring": {
+      "icon": "📡"
+    },
+    "03_Operations/Restore Tests": {
+      "icon": "🧯"
+    },
+    "03_Operations/Runbooks": {
+      "icon": "📘"
+    },
+    "04_Research/Plugin Evaluations": {
+      "icon": "🔌"
+    },
+    "04_Research/Provider Evaluations": {
+      "icon": "🧪"
+    },
+    "04_Research/Repositories": {
+      "icon": "📚"
+    },
+    "99_Assets/data": {
+      "icon": "🗃️"
+    },
+    "Data": {
+      "icon": "📊"
+    },
+    "Excalidraw": {
+      "icon": "✏️"
+    },
+    "Inbox": {
+      "icon": "📥"
+    },
+    "Memory": {
+      "icon": "🧠"
+    },
+    "Skills": {
+      "icon": "🛠️"
+    },
+    "Tags": {
+      "icon": "🏷️"
+    },
+    "Untitled": {
+      "icon": "📝"
+    },
+    "Workspace": {
+      "icon": "🧭"
     }
   },
   "bookmarkIcons": {},
